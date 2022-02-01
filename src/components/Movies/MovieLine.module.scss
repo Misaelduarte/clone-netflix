@@ -1,0 +1,32 @@
+.movieLine {
+  margin-bottom: 30px;
+
+  h2 {
+    margin: 0 0 0 30px;
+  }
+
+  .listArea {
+    overflow-x: hidden;
+    padding-left: 30px;
+
+    .list {
+      width: 9999px;
+
+      .item {
+        display: inline-block;
+        width: 150px;
+        cursor: pointer;
+
+        img {
+          width: 100%;
+          transform: scale(.9);
+          transition: all ease 200ms;
+
+          &:hover {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  }
+}
